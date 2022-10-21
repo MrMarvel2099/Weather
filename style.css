@@ -1,0 +1,40 @@
+section{
+    height: 80vh;
+}
+nav ul li a{
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white !important;
+}
+.cardClass{
+    background-color: rgba(0, 0, 100, 0.2);
+    color: white;
+}
+.cardHeader{
+    background-color: rgba(0, 0, 100, 0.4);
+}
+
+#displaySection{
+    background-image: url(/IMG/London.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.displayWeather{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80vh;
+}
+.socialmediaIcon{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: blue;
+}
+.socialmediaIcon:hover{
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}

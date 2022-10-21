@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href=".." type="image/x-icon">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container py-4">
+            <a class="navbar-brand" href="#">Weather</a>
+            <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-info"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link">Live cams</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link">Photos</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section  id="displaySection">
+        <div class="displayWeather">
+            <div class="container py-5">
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control bg-dark border-0 text-white" placeholder="City" id="search">
+                    <span class="input-group-text bg-dark border-0">
+                        <button class="btn btn-primary" id="btnSearch">Search</button>
+                    </span>
+                </div>
+                <div class="displayItems my-5">
+                    <div class="row" id="dataRow">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group flex-nowrap">
+                        <input type="text" class="form-control bg-black border-0" placeholder="Subscribtion" id="Subscribtion">
+                        <span class="input-group-text bg-black border-0">
+                            <button class="btn btn-primary">Subscribe</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-6 text-danger d-flex justify-content-center align-items-center">
+                    <div class="socialmediaIcon rounded-circle mx-1 d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="socialmediaIcon rounded-circle mx-1 d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="socialmediaIcon rounded-circle mx-1 d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-google-plus"></i>
+                    </div>
+                    <div class="socialmediaIcon rounded-circle mx-1 d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="text-secondary py-3 text-sm-center fw-light">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
